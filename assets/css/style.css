@@ -1,0 +1,30 @@
+#slider{
+                          width:100%;
+                          float:left;
+                          position: relative;
+                      }
+#slider .item img.imgslider {
+    width:100%;
+    text-align: center;
+}
+.textcolor1x{padding:12px 35px;display: inline-block;background-image: linear-gradient(to right, #00D7FE , #146AB5);font-weight: bold;font-size: 30px;border-radius: 30px;color:#fff;transition: all .3s;}
+.textcolor1x:hover{background-image: linear-gradient(to left, #00D7FE , #146AB5);transition: all .3s;}
+.textcolor2x{padding:12px 35px;display: inline-block;background-image: linear-gradient(to right, #FFCA00 , #FF4200);font-weight: bold;font-size: 30px;border-radius: 30px;color:#fff;transition: all .3s;}
+.textcolor2x:hover{background-image: linear-gradient(to left, #FFCA00 , #FF4200);transition: all .3s;}
+.textslider4{color:#fff;}
+@media (max-width: 919px){
+    .textslider4{display: none !important}
+}
+@media (max-width: 770px){
+    .boxtext_c1{width: 100% !important;}
+    .textslider1{font-size: 18px !important}
+    .textslider2{font-size: 30px !important}
+    .textslider3{font-size: 16px !important}
+    .textcolor{font-size: 22px !important}
+}
+@media (max-width: 480px){
+    .textslider1{font-size: 13px !important}
+    .textslider2{font-size: 22px !important}
+    .textslider3{font-size: 13px !important}
+    .textcolor{font-size: 14px !important}
+}
